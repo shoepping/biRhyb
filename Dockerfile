@@ -10,6 +10,4 @@ RUN apt-get install -y \
         r-cran-rjava \
 	libxml2-dev
 
-COPY install.R /opt/install.R
-RUN R -f /opt/install.R
-WORKDIR /opt/biRhyb
+RUN R -f install.R
