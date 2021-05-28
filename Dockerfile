@@ -10,4 +10,5 @@ RUN apt-get install -y \
         r-cran-rjava \
 	libxml2-dev
 
-RUN R -f install.R
+COPY install.R /opt/install.R
+RUN R -f /opt/install.R
