@@ -8,7 +8,7 @@ install.packages("XML")
 install.packages("sqldf")
 install.packages("keyring")
 install.packages("dplyr")
-
+install.packages("ssh.utils")
 
 
 
