@@ -8,6 +8,7 @@ RUN apt-get install -y \
 	libsodium-dev \
 	default-jdk \
         r-cran-rjava \
+	openssh-client \
 	libxml2-dev
 
 COPY install.R /opt/install.R
