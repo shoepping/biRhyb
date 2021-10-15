@@ -1,14 +1,14 @@
 
 
-install.packages("rJava")
-install.packages("RJDBC")
-install.packages("httr")
-install.packages("readtext")
-install.packages("XML")
-install.packages("sqldf")
-install.packages("keyring")
-install.packages("dplyr")
-install.packages("ssh.utils")
+install.packages("rJava",  type = "source")
+install.packages("RJDBC",  type = "source")
+install.packages("httr",  type = "source")
+install.packages("readtext",  type = "source")
+install.packages("XML",  type = "source")
+install.packages("sqldf",  type = "source")
+install.packages("keyring",  type = "source")
+install.packages("dplyr",  type = "source")
+install.packages("ssh.utils",  type = "source")
 
 
 
