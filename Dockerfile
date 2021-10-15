@@ -6,7 +6,7 @@ RUN apt-get install -y \
 	libpoppler-cpp-dev \
 	libssl-dev \
 	libsodium-dev \
-	default-jdk \
+	openjdk-8-jdk \
         r-cran-rjava \
 	openssh-client \
 	libxml2-dev
