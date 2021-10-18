@@ -7,7 +7,6 @@ RUN apt-get install -y \
 	libssl-dev \
 	libsodium-dev \
 	openjdk-8-jdk \
-        r-cran-rjava \
 	openssh-client \
 	libxml2-dev
 
