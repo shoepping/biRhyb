@@ -9,6 +9,6 @@ RUN apt-get install -y \
 	openjdk-8-jdk \
 	openssh-client \
 	libxml2-dev
-
+RUN R CMD javareconf
 COPY install.R /opt/install.R
 RUN R -f /opt/install.R
